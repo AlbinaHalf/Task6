@@ -1,0 +1,15 @@
+﻿// Напишите программу, которая на вход
+//принимает число и выдаёт, является ли число чётным
+//(делится ли оно на два без остатка).
+
+Console.Write("Enter a number N: ");
+int N = Convert.ToInt32(Console.ReadLine());
+
+if (N % 2 == 0)
+{
+    Console.WriteLine("The number N is even");
+}
+else
+{
+    Console.WriteLine("The number N is not even");
+}
